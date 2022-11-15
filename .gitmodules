@@ -1,3 +1,0 @@
-[submodule "vendor/joyqi/hyper-down"]
-	path = vendor/joyqi/hyper-down
-	url = https://github.com/SegmentFault/HyperDown.git
