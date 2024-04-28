@@ -1580,7 +1580,7 @@ class Parser
      * @param int $start
      * @return string
      */
-    private function parseNormal(array $lines, $inline = false, $start)
+    private function parseNormal(array $lines, $inline, $start)
     {
         foreach ($lines as $key => &$line) {
             $line = $this->parseInline($line);
